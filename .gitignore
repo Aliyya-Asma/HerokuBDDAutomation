@@ -1,0 +1,15 @@
+﻿# Ignore Visual Studio files
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.db
+*.lock
+# Ignore build results
+bin/
+obj/
+# Ignore other IDE specific files
+*.log
