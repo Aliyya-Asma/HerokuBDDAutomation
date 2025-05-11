@@ -15,6 +15,8 @@ Automated UI test framework built with **Selenium WebDriver**, **C#**, **Reqnrol
 - **Design Pattern:** Page Object Model (POM)
 - **IDE:** Visual Studio
 - **Version Control:** Git + GitHub
+## Project Structure
+```
 HerokuAutomationTests/
 │
 ├── Drivers/            → WebDriver initialization (WebDriverFactory.cs)
@@ -23,6 +25,7 @@ HerokuAutomationTests/
 ├── StepDefinitions/    → Step bindings for feature steps
 ├── Tests/              → NUnit test runners
 └── Utils/              → Utility classes/helpers
+```
 ## How to Run the Tests
 1. Clone the repo:
    ```bash
